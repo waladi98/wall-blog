@@ -5,7 +5,7 @@ export default function CardPost( {thumbnail, ...infoPost}) {
     return (
         <article>
             <Link href='/detail'>
-                <img src={thumbnail}className="w-full rounded mb-4 cursor-pointer"/>
+                <img src={thumbnail}className="w-full rounded mb-4 cursor-pointer" alt="thumbnail"/>
             </Link>
             
             <InfoPost 

@@ -5,7 +5,7 @@ export default function PostAuthor({shortDescription,authorAvatar,authorName,aut
                 {shortDescription} 
             </p>
             <div className="flex items-center mt-5">
-                <img src={authorAvatar} className="w-14 h-14 rounded-full object-cover"/>
+                <img src={authorAvatar} className="w-14 h-14 rounded-full object-cover" alt="avatar"/>
                 <div className="ml-4">
                 <h3>{authorName}</h3>
                     <div className="text-white/60 text-sm mt-1">

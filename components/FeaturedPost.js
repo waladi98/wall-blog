@@ -7,7 +7,7 @@ export default function FeaturedPost() {
             <div className="flex flex-wrap -mx-4 lg:items-center items-start">
                 <div className="px-4 lg:w-8/12 md:w-7/12 w-full">
                     <Link href='/detail'>
-                        <img src="/assets/imgPost/Rectangle-4.png" className="rounded-xl w-full mb-4 md:mb-0 cursor-pointer"/>
+                        <img src="/assets/imgPost/Rectangle-4.png" className="rounded-xl w-full mb-4 md:mb-0 cursor-pointer" alt="thumbnail"/>
                     </Link>
                 </div>
                 <div className="lg:w-4/12 md:w-5/12 w-full px-4">
